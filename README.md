@@ -9,7 +9,7 @@ information about customer accounts and their transaction details.
 ## Supported endpoints
 
  **http://localhost:8081/api/account/getaccounts?customerId=2000**
- **http://localhost:8081/api/transaction/gettransactions?accountId=6000**
+ **http://localhost:8081/api/transaction/gettransactions?accountNumber=6000**
 
 
 ## Data
@@ -19,6 +19,7 @@ in the resources folder. Records for customerId 2000 and accountId 6000 are crea
 ## How to run
 * Please install Lombok plugin in your IDE (IDEA/Eclipse)
     * STS: Open the Settings panel. Search for "Plugins", then search for "Lombok" in the plugins. Find the plugin and install it. Restart your STS.
+      Installation reference: http://codeomitted.com/setup-lombok-with-stseclipse-based-ide/
     * Eclipse: run lombok/lombok.jar provided in the source.
 * Import project in IDE and run **mvn clean install**
 * From IDE directly run Application.java

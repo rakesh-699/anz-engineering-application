@@ -22,13 +22,7 @@ import java.util.List;
 @Slf4j
 @RequestMapping("api/account")
 public class AccountController {
-	
-	@RequestMapping("/hello")
-	public String hello()
-	{
-		return "Hello World";
-	}
-
+		
     @Autowired
     private AccountService accountService;
 
